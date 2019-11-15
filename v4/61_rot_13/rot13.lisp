@@ -6,3 +6,5 @@
 (print "What's your name?")
 (defvar *name* (read))
 (format t "Hi, ~a ~%" *name*)
+
+(setq *print-case* :capitalize-first)

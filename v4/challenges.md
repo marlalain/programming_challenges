@@ -10,27 +10,27 @@ $Games							:	104-132
 
 @Easy
 4	Markov Chain Sentence Generator
-#	(Include Shitposting Capabilities)
-10	To-Do List Application
-#	(Web app or CLI)
+	(Include Shitposting Capabilities)
+10	To-Do List Application [XXXXX]
+	(Web app or CLI)
 15	Chatbot
-#	(With conversation retention)
+	(With conversation retention)
 18	Image to ASCII Art
 25	Imageboard	(Imagine vichan)
 35	Create an HSV Color Representation
 42	Port Scanner
 43	Old School Demo Effect (Plasma, Tunner, Scrollers, Zoomers, etc...)
 44	Fizzbuzz
-#	(BONUS: In assembly)
+	(BONUS: In assembly)
 45	RPN Calculator
 46	Counts occurrences of characters in a Given String
-#	(Inlcude support for unicode character)
+	(Inlcude support for unicode character)
 47	Tower of Hanoi
 50	Calculate the first (n) digits of pi
 52	Given an Array of Stocks's values ofer time, find the period of time where the stocks could have made the most money
 53	Highest Prime Factor Calculator
 56	Password Generator
-#	(Let User Choose Options)
+	(Let User Choose Options)
 59	Ceasar Cipher Cracker
 61	ROT 13
 64	Encrypt/Decrypt Text: Implement at least one from http://rumkin.com/tools/cipher/collection
@@ -62,22 +62,22 @@ $Games							:	104-132
 6	MIDI Player + Editor
 7	Stock Market Simulator Using Yahoo Spreadsheet Data
 9	graphic Calculator
-#	(BONUS: Graph the Function's Derivatives)
+	(BONUS: Graph the Function's Derivatives)
 12	TCP/UDP Chat Server + Client
 14	Shazam
 16	Curses Text Editor
-#	(With Emacs/Vim Keybindings)
+	(With Emacs/Vim Keybindings)
 17	Paint Clone
 19	Booru (Image Board) Image Downloader
 20	Image Converter
 21	ID3 Reader
 23	C++ IDE plugin for Sublime/Atom
-#	(Auto-Complete, Go-To Symbol Declaration and Definition using Clang's AST)
+	(Auto-Complete, Go-To Symbol Declaration and Definition using Clang's AST)
 24	Simple Version Control supporting checkout, commit (with commit messages), unlocking, and per-file configuration of number of revision kept
 26	Password Manager
 29	Key Press bot
 30	IP/URL Obsucrifaction
-#	(http://www.pc-help.org/obscure.htm)
+	(http://www.pc-help.org/obscure.htm)
 31	Radix Base Converter (Given a radix base, convert it to decimal)
 33	Encrypt a file, and Upload it online
 36	Window Manager
@@ -87,10 +87,10 @@ $Games							:	104-132
 41	IP Tracking Visualization
 48	Music Visualizer
 49	Unicode Converter
-#	(Support for UTF-8, 16LE, 32LE, and 32BE)
+	(Support for UTF-8, 16LE, 32LE, and 32BE)
 51	Least Squares Fitting Algorithm
 54	Hide and Extract Data in images (Basic Steganography)
-#	(BONUSL Include .gif support)
+	(BONUSL Include .gif support)
 55	Web Page crawler
 57	Vignere cipher encryption/decryption
 58	Game Of Life
@@ -106,24 +106,24 @@ $Games							:	104-132
 76	Convolutional Neural Network: Implement a convolutional N.N. for handwritten digit recognition, test on MNIST dataset (Use TensorFlow, Theano, etc...)
 78	Virtual Machine with Script that Writes "Hello, Word"
 80	Terminal Shell (Executable Binaries, Pipe system, Redirection, and History)
-#	(BONUS: Make it a GUI)
+	(BONUS: Make it a GUI)
 81	HTML + JavaScript Debugger
 82	Write an interpreted LISP-Like programming language
 84	Universal Asynchronous Receiver/Transmitter (UART) Game (In assembly)
 90	Static Website Generator (Scriptable templates + Content -> HTML and CSS)
 91	Chip-8 Emulator
-#	(Hard Mode: Cached interpreter. Fuck You: Dynamic Recompiler, use dynarec/jit library)
+	(Hard Mode: Cached interpreter. Fuck You: Dynamic Recompiler, use dynarec/jit library)
 92	Double Pendulum Simulation
 93	Constructive Solid Geometry
 97	Generate a 5-Color Scheme from the most dominant tones in any image
 100	N-Body Simulator, with particles having a certain mass and radius depending on the mass that merge if they collide
-#	(BONUS: include a GUI where you can place particles)
+	(BONUS: include a GUI where you can place particles)
 104	Knight's Tour
 106	Tetris
 108	Pipe Dreams
 109	Pac Man, With Different Behaviors for each ghost
 113	Shuffle a Deck of Cards
-#	(include a visualization)
+	(include a visualization)
 114	Simulate a game of Tag using a multi-agent system
 116	Scorched Earth Clone
 117	Minesweeper
@@ -169,7 +169,7 @@ $Games							:	104-132
 110	Dragon Quest/Basic RPG Engine
 112	First-person Engine in OpenGL (Walking, Looking Around, jumping on obstacles)
 115	Wolfenstein Clone (FPS, Twi-dimensionalmap that appears to be 3D)
-#	(If you need a starting point, search for bisquit's video about DOOM-like Engines)
+	(If you need a starting point, search for bisquit's video about DOOM-like Engines)
 120	Danmaku (Bullet Hell) Engine
 121	Rougelike Engine/Dungeon Generator
 126	Go (No AI Necessary)
@@ -180,7 +180,7 @@ $Games							:	104-132
 
 @Fuck You
 37	Basic Relational Database Software
-#	(SQL Support, Handle Relationships, Focus on Efficiency)
+	(SQL Support, Handle Relationships, Focus on Efficiency)
 79	Basic Bootloader
-#	(With extended file system)
+	(With extended file system)
 98	General Lambert's-problem Solver
