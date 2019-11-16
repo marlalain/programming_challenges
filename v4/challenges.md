@@ -11,8 +11,6 @@ $Games							:	104-132
 @Easy
 4	Markov Chain Sentence Generator
 	(Include Shitposting Capabilities)
-10	To-Do List Application [XXXXX]
-	(Web app or CLI)
 15	Chatbot
 	(With conversation retention)
 18	Image to ASCII Art
@@ -32,7 +30,6 @@ $Games							:	104-132
 56	Password Generator
 	(Let User Choose Options)
 59	Ceasar Cipher Cracker
-61	ROT 13
 64	Encrypt/Decrypt Text: Implement at least one from http://rumkin.com/tools/cipher/collection
 65	Youtube to MP3
 66	Text to hexadecimal/binary

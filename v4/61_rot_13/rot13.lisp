@@ -11,7 +11,7 @@
   (format t "What's your message? ~%")
   (defvar message (read-line))
   (defvar message_list (coerce message 'list))
-  ;; (> 77) (< 78)
+  ;; TODO ADD IFELSE FOR: (> 77) (< 78)
   (loop for letter in message_list
         do (if (< (char-code letter) 110)
                (format t "~a" (code-char (+ (char-code letter) 13)))
