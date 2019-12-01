@@ -33,7 +33,7 @@ Games: 104-132
  	(BONUS: In assembly)
 - 45	RPN Calculator
 - 46	Counts occurrences of characters in a Given String
- 	(Inlcude support for unicode character)
+ 	(Include support for unicode character)
 - 47	Tower of Hanoi
 - 50	Calculate the first (n) digits of pi
 - 52	Given an Array of Stocks's values over time, find the period of time where the stocks could have made the most money
