@@ -51,7 +51,6 @@ Games: 104-132
 - 102	Draw a spinning 3D Cube
 - 103	Cellular Textures
 - 107	Snake
-- 111	Rock Paper Scissors
 - 122	Design a Game Engine in Unity
 - 123 Yahtzee
 - 124	Oil Panic
