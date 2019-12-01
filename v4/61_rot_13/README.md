@@ -10,8 +10,7 @@ ROT13 (“rotate by 13 places”, sometimes hyphenated ROT-13) is a simple lette
 ## The Logic
 
 How ROT 13 works is pretty simple, you get an alphabetical char and then 'adds'
-13 digits to that number (A = N, P = C). How the logic for that works is: you
-have two parts for the code, the pre-N and post-N.
+13 digits to that number (A = N, P = C). So you have two parts for the code, the pre-N and post-N.
 
 * **pre-N** (<110, <77)
   
@@ -22,13 +21,6 @@ have two parts for the code, the pre-N and post-N.
   Every char in that zone you want to subtarct 13 digits to it, so N => A.
 
 ```lisp
-(loop for letter in message_list
-        do (if (< (char-code letter) 110)
-               (format t "~a" (code-char (+ (char-code letter) 13)))
-               (format t "~a" (code-char (- (char-code letter) 13)))))
-```
-
-``` common-lisp
 (loop for letter in message_list
         do (if (< (char-code letter) 110)
                (format t "~a" (code-char (+ (char-code letter) 13)))
