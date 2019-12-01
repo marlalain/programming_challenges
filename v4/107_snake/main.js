@@ -1,8 +1,11 @@
+/* eslint-disable no-undef */
 
 // TODO
 // Add poison (-1 tail size, if tail.size == 1, you die)
+// FIXME
+// Somehow adding poison broke the code
 
-let snake, food, poison
+let snake, food, poison, pos
 let points = 0
 let fps = true
 const size = 20
@@ -16,8 +19,9 @@ setup = () => {
 }
 
 pick_location = () => {
-	let cols = floor(width/size)
-	let rows = floor(height/size)
+	let cols = floor(width / size)
+	let rows = floor(height / size)
+
 	pos = createVector(floor(random(cols)), floor(random(rows)))
 	pos.mult(size)
 	return pos
@@ -58,9 +62,11 @@ keyPressed = () => {
 		snake.dir(-1, 0)
 	} else if (keyCode === BACKSPACE) {
 		if (fps) {
-			frameRate(60); fps = false
+			frameRate(60)
+			fps = false
 		} else {
-			frameRate(10); fps = true
+			frameRate(10)
+			fps = true
 		}
 	}
 }
@@ -71,28 +77,28 @@ class Snake {
 		this.y = 0
 		this.x_speed = 1
 		this.y_speed = 0
-		this.total = 0
+		this.total = 1
 		this.tail = []
 
 		this.update = () => {
-			for (let i = 0; i < this.tail.length-1; i++) {
-				this.tail[i] = this.tail[i+1]
+			for (let i = 0; i < this.total - 1; i++) {
+				this.tail[i] = this.tail[i + 1]
 			}
 			if (this.total >= 1) {
-				this.tail[this.total-1] = createVector(this.x, this.y)
+				this.tail[this.total - 1] = createVector(this.x, this.y)
 			}
 
 			this.x += this.x_speed * size
-			this.y += this.y + this.y_speed * size
+			this.y += this.y_speed * size
 
-			this.x = constrain(this.x, 0, width-size)
-			this.y = constrain(this.y, 0, height-size)
+			this.x = constrain(this.x, 0, width - size)
+			this.y = constrain(this.y, 0, height - size)
 		}
 
 		this.show = () => {
 			fill(255)
 			noStroke()
-			for (let i = 0; i < this.tail; i++) {
+			for (let i = 0; i < this.total; i++) {
 				rect(this.tail[i].x, this.tail[i].y, size, size)
 			}
 		}

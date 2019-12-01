@@ -50,11 +50,10 @@ Games: 104-132
 - 101	Eulerian Path
 - 102	Draw a spinning 3D Cube
 - 103	Cellular Textures
-- 107	Snake
 - 122	Design a Game Engine in Unity
-- 123 Yahtzee
+- 123 	Yahtzee
 - 124	Oil Panic
-- 127 Connect Four
+- 127 	Connect Four
 - 132	Simon
 - 134	Ulam Spiral
 - 138	PDF Tagger
@@ -138,7 +137,7 @@ Games: 104-132
 - 128	Mastermind
 - 129	Missile Command Game
 - 130	Tron
-- 131	breakout
+- 131	Breakout
 - 135	Bellman-Ford Simulation with at least Five Vertices
 - 136	Matrix Arithmetic
 - 137	File Compression Utility (Make it GUI)
@@ -149,7 +148,7 @@ Games: 104-132
 
 
 #### Difficult
-- 8	Paramentric/Graphic Equalizer to .wab files
+- 8		Paramentric/Graphic Equalizer to .wab files
 - 11	Verlet integration (Verlet Cloth)
 - 13	Music Streaming
 - 22	Sound Synthesis (Sine, square, sawtooth, etc...)
@@ -172,7 +171,7 @@ Games: 104-132
 - 105	Monster Raising/Breeding Simulator
 - 110	Dragon Quest/Basic RPG Engine
 - 112	First-person Engine in OpenGL (Walking, Looking Around, jumping on obstacles)
-- 115	Wolfenstein Clone (FPS, Twi-dimensionalmap that appears to be 3D)
+- 115	Wolfenstein Clone (FPS, Twi-dimensional map that appears to be 3D)
  	(If you need a starting point, search for bisquit's video about DOOM-like Engines)
 - 120	Danmaku (Bullet Hell) Engine
 - 121	Roguelike Engine/Dungeon Generator
