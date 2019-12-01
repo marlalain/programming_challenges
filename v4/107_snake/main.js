@@ -1,4 +1,8 @@
-let snake, food
+
+// TODO
+// Add poison (-1 tail size, if tail.size == 1, you die)
+
+let snake, food, poison
 let points = 0
 let fps = true
 const size = 20
@@ -7,23 +11,31 @@ setup = () => {
 	createCanvas(500, 300)
 	frameRate(10)
 	snake = new Snake()
-	pick_location()
+	food = pick_location()
+	poison = pick_location()
 }
 
 pick_location = () => {
 	let cols = floor(width/size)
 	let rows = floor(height/size)
-	food = createVector(floor(random(cols)), floor(random(rows)))
-	food.mult(size)
+	pos = createVector(floor(random(cols)), floor(random(rows)))
+	pos.mult(size)
+	return pos
 }
 
 draw = () => {
 	background(113)
 
-	if (snake.eat(food)) {
-		pick_location()
+	if (snake.eat(food, true)) {
+		food = pick_location()
+		poison = pick_location()
 		points += 10
+	} else if (snake.eat(poison, false)) {
+		food = pick_location()
+		poison = pick_location()
+		points -= 10
 	}
+
 	snake.update()
 	snake.show()
 
@@ -31,6 +43,8 @@ draw = () => {
 
 	fill(250, 10, 10)
 	rect(food.x, food.y, size, size)
+	fill(10, 250, 10)
+	rect(poison.x, poison.y, size, size)
 }
 
 keyPressed = () => {
@@ -57,7 +71,7 @@ class Snake {
 		this.y = 0
 		this.x_speed = 1
 		this.y_speed = 0
-		this.total = 1
+		this.total = 0
 		this.tail = []
 
 		this.update = () => {
@@ -68,8 +82,8 @@ class Snake {
 				this.tail[this.total-1] = createVector(this.x, this.y)
 			}
 
-			this.x = this.x + this.x_speed * size
-			this.y = this.y + this.y_speed * size
+			this.x += this.x_speed * size
+			this.y += this.y + this.y_speed * size
 
 			this.x = constrain(this.x, 0, width-size)
 			this.y = constrain(this.y, 0, height-size)
@@ -78,7 +92,7 @@ class Snake {
 		this.show = () => {
 			fill(255)
 			noStroke()
-			for (let i = 0; i < this.tail.length; i++) {
+			for (let i = 0; i < this.tail; i++) {
 				rect(this.tail[i].x, this.tail[i].y, size, size)
 			}
 		}
@@ -88,10 +102,13 @@ class Snake {
 			this.y_speed = y
 		}
 
-		this.eat = (food) => {
-			let d = dist(this.x, this.y, food.x, food.y)
-			if (d < 1) {
+		this.eat = (pos, food) => {
+			let d = dist(this.x, this.y, pos.x, pos.y)
+			if (d < 1 && food) {
 				this.total++
+				return true
+			} else if (d < 1 && !food) {
+				this.total--
 				return true
 			} else return false
 		}
