@@ -20,7 +20,7 @@ How ROT 13 works is pretty simple, you get an alphabetical char and then 'adds'
   
   Every char in that zone you want to subtarct 13 digits to it, so N => A.
 
-```lisp
+```common-lisp
 (loop for letter in message_list
         do (if (< (char-code letter) 110)
                (format t "~a" (code-char (+ (char-code letter) 13)))

@@ -28,15 +28,15 @@ Games: 104-132
 - 25	Imageboard	(Imagine vichan)
 - 35	Create an HSV Color Representation
 - 42	Port Scanner
-- 43	Old School Demo Effect (Plasma, Tunner, - Scrollers, Zoomers, etc...)
+- 43	Old School Demo Effect (Plasma, Tunner, Scrollers, Zoomers, etc...)
 - 44	Fizzbuzz
  	(BONUS: In assembly)
 - 45	RPN Calculator
-- 46	Counts occurrences of characters in a Given - String
+- 46	Counts occurrences of characters in a Given String
  	(Inlcude support for unicode character)
 - 47	Tower of Hanoi
 - 50	Calculate the first (n) digits of pi
-- 52	Given an Array of Stocks's values ofer time, - find the period of time where the stocks could have made the most money
+- 52	Given an Array of Stocks's values over time, find the period of time where the stocks could have made the most money
 - 53	Highest Prime Factor Calculator
 - 56	Password Generator
  	(Let User Choose Options)
@@ -45,7 +45,7 @@ Games: 104-132
 - 65	Youtube to MP3
 - 66	Text to hexadecimal/binary
 - 68	Sierpinski Triangle
-- 74	Basic Neural Network - Simulate individual - neurons and their connections
+- 74	Basic Neural Network - Simulate individual neurons and their connections
 - 96	Generate a Complimentary Color from any input color
 - 101	Eulerian Path
 - 102	Draw a spinning 3D Cube
@@ -64,9 +64,9 @@ Games: 104-132
 - 1	Download Manager
 - 2	Make an elastic producer/consumer task queue.
 - 3	IRC client
-- 5	English Sentence Parser that Points to the - Context of a Sentence
+- 5	English Sentence Parser that Points to the Context of a Sentence
 - 6	MIDI Player + Editor
-- 7	Stock Market Simulator Using Yahoo Spreadsheet - Data
+- 7	Stock Market Simulator Using Yahoo Spreadsheet Data
 - 9	graphic Calculator
  	(BONUS: Graph the Function's Derivatives)
 - 12	TCP/UDP Chat Server + Client
@@ -83,11 +83,11 @@ Games: 104-132
 - 26	Password Manager
 - 29	Key Press bot
 - 30	[IP/URL Obsucrifaction](http://www.pc-help.org/obscure.htm)
-- 31	Radix Base Converter (Given a radix base, - convert it to decimal)
+- 31	Radix Base Converter (Given a radix base, convert it to decimal)
 - 33	Encrypt a file, and Upload it online
 - 36	Window Manager
 - 38	Pixel Editor
-- 39	Trivial File Transfer Protocol (TFTP): Allow - Client to put a file on remote host
+- 39	Trivial File Transfer Protocol (TFTP): Allow Client to put a file on remote host
 - 40	Markdown (HTML/XML) Editor
 - 41	IP Tracking Visualization
 - 48	Music Visualizer
@@ -108,21 +108,21 @@ Games: 104-132
 - 72	Sudoku/n-Puzzle Solver using A* algorithm
 - 73	Connect-4 AI Player using Aplha-Beta Pruning
 - 75	Real Neural Network - Implement a basic - feed-forward network using matrices for entire - layers along with matrix operation for computations.
-- 76	Convolutional Neural Network: Implement a - convolutional N.N. for handwritten digit recognition,-  test on MNIST dataset (Use TensorFlow, Theano, - etc...)
-- 78	Virtual Machine with Script that Writes "Hello, - Word"
-- 80	Terminal Shell (Executable Binaries, Pipe system,-  Redirection, and History)
+- 76	Convolutional Neural Network: Implement a - convolutional N.N. for handwritten digit recognition,-  test on MNIST dataset (Use TensorFlow, Theano, etc...)
+- 78	Virtual Machine with Script that Writes "Hello, World"
+- 80	Terminal Shell (Executable Binaries, Pipe system,  Redirection, and History)
  	(BONUS: Make it a GUI)
 - 81	HTML + JavaScript Debugger
 - 82	Write an interpreted LISP-Like programming - language
 - 84	Universal Asynchronous Receiver/Transmitter - (UART) Game (In assembly)
-- 90	Static Website Generator (Scriptable templates + - Content -> HTML and CSS)
+- 90	Static Website Generator (Scriptable templates + Content -> HTML and CSS)
 - 91	Chip-8 Emulator
- 	(Hard Mode: Cached interpreter. Fuck You: - Dynamic Recompiler, use dynarec/jit library)
+ 	(Hard Mode: Cached interpreter. Fuck You: Dynamic Recompiler, use dynarec/jit library)
 - 92	Double Pendulum Simulation
 - 93	Constructive Solid Geometry
-- 97	Generate a 5-Color Scheme from the most dominant - tones in any image
+- 97	Generate a 5-Color Scheme from the most dominant tones in any image
 - 100	N-Body Simulator, with particles having a - certain mass and radius depending on the mass that - merge if they collide
- 	(BONUS: include a GUI where you can place - particles)
+ 	(BONUS: include a GUI where you can place particles)
 - 104	Knight's Tour
 - 106	Tetris
 - 108	Pipe Dreams
@@ -139,7 +139,7 @@ Games: 104-132
 - 129	Missile Command Game
 - 130	Tron
 - 131	breakout
-- 135	Bellman-Ford Simulation with at least Five - Vertices
+- 135	Bellman-Ford Simulation with at least Five Vertices
 - 136	Matrix Arithmetic
 - 137	File Compression Utility (Make it GUI)
 - 140	Calculate Dot and Cross Product of Two Vectors
@@ -155,27 +155,27 @@ Games: 104-132
 - 22	Sound Synthesis (Sine, square, sawtooth, etc...)
 - 27	Create a Torrent Client (CLI or GUI)
 - 28	Booru Client
-- 32	Chan aggregator (Let's user view various boards - from different 'chans')
+- 32	Chan aggregator (Let's user view various boards from different 'chans')
  	(BONUS: Add 4ChanX and Archiving funcionality)
-- 34	Make a Text Editor that autosaves and includes - the data in the filename
+- 34	Make a Text Editor that autosaves and includes the data in the filename
 - 70	OpenAI Gym Project
-- 77	Convolutional Neural Network: Implement your own - Convolutional Neural Network for handwritten digit - recognition, test on MNIST Dataset (Without - TensorFlow, Theano, etc...)
-- 83	Make an application that is capable of mounting - filesystems from other OSes  using the FUSE model
+- 77	Convolutional Neural Network: Implement your own Convolutional Neural Network for handwritten digit - recognition, test on MNIST Dataset (Without TensorFlow, Theano, etc...)
+- 83	Make an application that is capable of mounting filesystems from other OSes  using the FUSE model
 - 85	Pong Game as a UEFI file in color
 - 86	Design a Esoteric Language
 - 87	C Compiler
 - 88	Turing machine simulator
-- 89	Read, Evaluate, Print Loop using a compiled - language
+- 89	Read, Evaluate, Print Loop using a compiled language
 - 94	Ray Tracer
-- 95	Real-time fast Fourier Transform Spectrum - Visualiser
+- 95	Real-time fast Fourier Transform Spectrum Visualiser
 - 99	TI-86 Emulator
 - 105	Monster Raising/Breeding Simulator
 - 110	Dragon Quest/Basic RPG Engine
-- 112	First-person Engine in OpenGL (Walking, Looking - Around, jumping on obstacles)
-- 115	Wolfenstein Clone (FPS, Twi-dimensionalmap that - appears to be 3D)
- 	(If you need a starting point, search for - bisquit's video about DOOM-like Engines)
+- 112	First-person Engine in OpenGL (Walking, Looking Around, jumping on obstacles)
+- 115	Wolfenstein Clone (FPS, Twi-dimensionalmap that appears to be 3D)
+ 	(If you need a starting point, search for bisquit's video about DOOM-like Engines)
 - 120	Danmaku (Bullet Hell) Engine
-- 121	Rougelike Engine/Dungeon Generator
+- 121	Roguelike Engine/Dungeon Generator
 - 126	Go (No AI Necessary)
 - 133	LISP Intepreter
 - 139	Nonogram Generator and solver
