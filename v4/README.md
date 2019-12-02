@@ -60,7 +60,7 @@ Games: 104-132
 
 #### Medium
 - 1	Download Manager
-- 2	Make an elastic producer/consumer task queue.
+- 2	[Make an elastic producer/consumer task queue](https://www.youtube.com/watch?v=VXJSJ6c3ZIs)
 - 3	IRC client
 - 5	English Sentence Parser that Points to the Context of a Sentence
 - 6	MIDI Player + Editor
@@ -92,19 +92,19 @@ Games: 104-132
 - 49	Unicode Converter
  	(Support for UTF-8, 16LE, 32LE, and 32BE)
 - 51	Least Squares Fitting Algorithm
-- 54	Hide and Extract Data in images (Basic - Steganography)
- 	(BONUSL Include .gif support)
+- 54	Hide and Extract Data in images (Basic - Stenography)
+ 	(BONUS Include .gif support)
 - 55	Web Page crawler
-- 57	Vignere cipher encryption/decryption
+- 57	Vignère cipher encryption/decryption
 - 58	Game Of Life
 - 60	Dijkstra's Algorithm
-- 62	Porogram that displays MBR Contents
+- 62	Program that displays MBR Contents
 - 63	Random Name Picker
-- 67	Calculate the firts 1k digits of Pi iteratively
-- 69	Mandlebrot Set
-- 71	Ai for Rougelikes
+- 67	Calculate the firsts 1k digits of Pi iteratively
+- 69	Mandelbrot Set
+- 71	Ai for Roguelikes
 - 72	Sudoku/n-Puzzle Solver using A* algorithm
-- 73	Connect-4 AI Player using Aplha-Beta Pruning
+- 73	Connect-4 AI Player using Alpha-Beta Pruning
 - 75	Real Neural Network - Implement a basic - feed-forward network using matrices for entire - layers along with matrix operation for computations.
 - 76	Convolutional Neural Network: Implement a - convolutional N.N. for handwritten digit recognition,-  test on MNIST dataset (Use TensorFlow, Theano, etc...)
 - 78	Virtual Machine with Script that Writes "Hello, World"
@@ -154,7 +154,7 @@ Games: 104-132
 - 27	Create a Torrent Client (CLI or GUI)
 - 28	Booru Client
 - 32	Chan aggregator (Let's user view various boards from different 'chans')
- 	(BONUS: Add 4ChanX and Archiving funcionality)
+ 	(BONUS: Add 4ChanX and Archiving functionality)
 - 34	Make a Text Editor that autosaves and includes the data in the filename
 - 70	OpenAI Gym Project
 - 77	Convolutional Neural Network: Implement your own Convolutional Neural Network for handwritten digit - recognition, test on MNIST Dataset (Without TensorFlow, Theano, etc...)
