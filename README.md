@@ -3,6 +3,8 @@
 ### Programming Languages Used
 - Python
 - Lisp
+- Assembly
+- JavaScript
 
 ### Programming challenges completed
 - [Todo List Application (#10)](https://github.com/paulo-e/programming_challenges/tree/master/v4/10_to-do_list_application) (Made in Python3)
