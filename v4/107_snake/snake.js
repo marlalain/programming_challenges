@@ -20,11 +20,11 @@ class Snake {
 				this.tail[this.total - 1] = createVector(this.x, this.y)
 			}
 
-			this.x += this.x_speed * size
-			this.y += this.y_speed * size
+			if (this.x == width - size || this.x < 0) dead = true
+			if (this.y == height - size || this.y < 0) dead = true
 
-			this.x = constrain(this.x, 0, width - size)
-			this.y = constrain(this.y, 0, height - size)
+			if (!dead) this.x += this.x_speed * size
+			if (!dead) this.y += this.y_speed * size
 		}
 
 		this.check_death = () => {
@@ -34,11 +34,6 @@ class Snake {
 				if (d < 1) return true
 				else return false
 			}
-			// this.tail.forEach(piece => {
-			// 	let d = dist(this.x, this.y, piece.x, piece.y)
-			// 	if (d < 1) return true
-			// 	else return false
-			// })
 		}
 
 		this.show = () => {
@@ -48,7 +43,6 @@ class Snake {
 				rect(this.tail[i].x, this.tail[i].y, size, size)
 			}
 			rect(this.x, this.y, size, size)
-			// this.tail.map(piece => rect(piece.x, piece.y, size, size))
 		}
 
 		this.dir = (x, y) => {

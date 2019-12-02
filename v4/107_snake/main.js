@@ -1,7 +1,6 @@
 /* eslint-disable no-undef */
 
 // TODO Die if you touch the border
-// TODO Fix the bug where you do a 180°
 
 let snake, food, poison, pos, dead
 let points = 0
@@ -39,8 +38,11 @@ draw = () => {
 			points -= 10
 		}
 
-		snake.update()
-		snake.show()
+		if (points < 0) dead = true
+		if (snake.check_death()) dead = true
+
+		if (!dead) snake.update()
+		if (!dead) snake.show()
 
 		text(points, 10, 15)
 
@@ -48,8 +50,6 @@ draw = () => {
 		rect(food.x, food.y, size, size)
 		fill(10, 250, 10)
 		rect(poison.x, poison.y, size, size)
-		if (points < 0) dead = true
-		if (snake.check_death()) dead = true
 	} else {
 		snake = new Snake()
 	}
