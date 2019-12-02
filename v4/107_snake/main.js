@@ -1,9 +1,7 @@
 /* eslint-disable no-undef */
 
-// TODO
-// Add poison (-1 tail size, if tail.size == 1, you die)
-// FIXME
-// Somehow adding poison broke the code
+// TODO Die if you touch the border
+// TODO Fix the bug where you do a 180°
 
 let snake, food, poison, pos, dead
 let points = 0

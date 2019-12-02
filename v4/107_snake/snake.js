@@ -52,8 +52,8 @@ class Snake {
 		}
 
 		this.dir = (x, y) => {
-			this.x_speed = x
-			this.y_speed = y
+			if (this.x_speed * -1 != x) this.x_speed = x
+			if (this.y_speed * -1 != y) this.y_speed = y
 		}
 
 		this.eat = (pos, food) => {
