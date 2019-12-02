@@ -38,7 +38,6 @@ Games: 104-132
 - 50	Calculate the first (n) digits of pi
 - 52	Given an Array of Stocks's values over time, find the period of time where the stocks could have made the most money
 - 53	Highest Prime Factor Calculator
-- 56	Password Generator
  	(Let User Choose Options)
 - 59	Ceasar Cipher Cracker
 - 64	Encrypt/Decrypt Text: Implement at least one from [here](http://rumkin.com/tools/cipher/collection)
@@ -51,9 +50,9 @@ Games: 104-132
 - 102	Draw a spinning 3D Cube
 - 103	Cellular Textures
 - 122	Design a Game Engine in Unity
-- 123 	Yahtzee
+- 123 Yahtzee
 - 124	Oil Panic
-- 127 	Connect Four
+- 127 Connect Four
 - 132	Simon
 - 134	Ulam Spiral
 - 138	PDF Tagger
