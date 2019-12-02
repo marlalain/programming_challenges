@@ -28,28 +28,30 @@ draw = () => {
 	background(113)
 
 	if (!dead) {
-		if (snake.eat(food, true)) {
+		if (snake.check_death()) dead = true
+		if (points < 0) dead = true
+
+		if (!dead && snake.eat(food, true)) {
 			food = pick_location()
 			poison = pick_location()
 			points += 10
-		} else if (snake.eat(poison, false)) {
+		} else if (!dead && snake.eat(poison, false)) {
 			food = pick_location()
 			poison = pick_location()
 			points -= 10
 		}
 
-		if (points < 0) dead = true
-		if (snake.check_death()) dead = true
+		if (!dead) {
+			snake.update()
+			snake.show()
 
-		if (!dead) snake.update()
-		if (!dead) snake.show()
+			text(points, 10, 15)
 
-		text(points, 10, 15)
-
-		fill(250, 10, 10)
-		rect(food.x, food.y, size, size)
-		fill(10, 250, 10)
-		rect(poison.x, poison.y, size, size)
+			fill(250, 10, 10)
+			rect(food.x, food.y, size, size)
+			fill(10, 250, 10)
+			rect(poison.x, poison.y, size, size)
+		}
 	} else {
 		snake = new Snake()
 	}
