@@ -26,3 +26,6 @@ How ROT 13 works is pretty simple, you get an alphabetical char and then 'adds'
                (format t "~a" (code-char (+ (char-code letter) 13)))
                (format t "~a" (code-char (- (char-code letter) 13)))))
 ```
+
+## How to run
+TODO

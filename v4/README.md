@@ -1,6 +1,4 @@
-
 # Remaining Challenges
-Thanks for [siliciusQ](github.com/siliciusQ/Programming-challenges-v4.0) for this file!
 
 Table of Contents
 --------
