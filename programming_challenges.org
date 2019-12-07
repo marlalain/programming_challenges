@@ -1,0 +1,20 @@
+* Programming Challenges
+
+** Ongoing Challenges
+
+*** #44 Fizzbuzz (Assembly)
+**** TODO Print [num], fizz and buzz
+**** TODO Fix [num] related errors
+
+*** #61 ROT13 (Lisp)
+**** TODO Add if-else for >77 and <78
+
+*** #64 Encrypt/Decrypt
+**** TODO Finish encrypt()
+**** TODO Make decrypt()
+*** #80 Terminal Shell (Haskell)
+**** TODO Prompt
+**** TODO Executable binaries
+**** TODO Pipe system
+**** TODO Redirection
+**** TODO History
