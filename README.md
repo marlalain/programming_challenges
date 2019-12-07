@@ -14,7 +14,8 @@
 - [Rock Paper Scissors (#111)](https://github.com/paulo-e/programming_challenges/tree/master/v4/111_rock_paper_scissors) (Made in Python3)
 
 ### How do I test something?
-Inside any challenge folder, there's a README with everything you will need.
+First check the [wiki](https://github.com/paulo-e/programming_challenges/wiki/How-to-test-a-challenge%3F).
+Then you can check the README.md that's inside every challenge folder.
 
 ### Help the project
 This is a personal project, don't create a pull request. You are free to fork it anytime! :)
