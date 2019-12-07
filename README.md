@@ -7,11 +7,14 @@
 - JavaScript
 - Haskell
 
-### Programming challenges completed
+### Pro/g/ramming challenges completed (v4)
 - [Todo List Application (#10)](https://github.com/paulo-e/programming_challenges/tree/master/v4/10_to-do_list_application) (Made in Python3)
 - [Password Generator (#56)](https://github.com/paulo-e/programming_challenges/tree/master/v4/56_password_generator) (Made in Python3)
 - [Snake Game (#107)](https://github.com/paulo-e/programming_challenges/tree/master/v4/107_snake) (Made in JavaScript)
 - [Rock Paper Scissors (#111)](https://github.com/paulo-e/programming_challenges/tree/master/v4/111_rock_paper_scissors) (Made in Python3)
+
+### Euler Project
+As of 2019, the Euler Project has over 600 problems so go [here](https://github.com/paulo-e/programming_challenges/blob/finished/euler/)] to check those.
 
 ### How do I test something?
 First check the [wiki](https://github.com/paulo-e/programming_challenges/wiki/How-to-test-a-challenge%3F).
