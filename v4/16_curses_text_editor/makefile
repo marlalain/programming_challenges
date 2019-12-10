@@ -1,13 +1,24 @@
-CC = tcc
-FILES = spacer.c
-FLAGS = lncurses
-OUT_EXE = spacer
+##
+# Spacer
+#
+# @file spacer.c
+# @version 0.1
+
+CC=tcc
+CFLAGS=lncurses
+FILES=spacer.c
+EXE=spacer
 
 build: $(FILES)
-	$(CC) -o $(OUT_EXE) $(FILES) -$(FLAGS)
+	$(CC) -o $(EXE) $(FILES) -$(CFLAGS)
 
 clean:
-	rm -f *.o *.out spacer
+	rm -f *.o $(FILES)
 
-rebuild: $(FILES)
-	rm -f *.o *.out spacer && $(CC) -o $(OUT_EXE) $(FILES) -$(FLAGS)
+run: $(FILES)
+	$(CC) -o $(EXE) $(FILES) -$(CFLAGS) && ./$(EXE)
+
+dev: $(FILES)
+	clear && $(CC) -o $(EXE) $(FILES) -$(CFLAGS) && ./$(EXE)
+
+# end
