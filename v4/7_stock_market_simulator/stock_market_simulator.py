@@ -24,8 +24,6 @@ def main():
     #get_csv('TSLA')
     df = pd.read_csv('tsla.csv', index_col=0)
     #print(df.head())
-    df['Adj Close'].plot()
-    plt.show()
 # main
 if __name__ == "__main__":
     main()
