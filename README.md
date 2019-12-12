@@ -7,6 +7,7 @@
 - JavaScript
 - Haskell
 - Rust
+- C
 
 ### Euler Project
 As of 2019, the Euler Project has over 600 problems so go [here](https://github.com/paulo-e/programming_challenges/tree/master/euler) to check those.
