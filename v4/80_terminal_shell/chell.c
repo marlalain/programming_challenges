@@ -8,6 +8,7 @@
 #include <unistd.h>
 
 int main() {
+  int prompt = 1;
   char *user;
   user = getenv("USER");
   char *pwd;
@@ -17,12 +18,20 @@ int main() {
   // path = getenv("PATH");
   char program[80];
 
-  if (pid == 0) {
-    static char *argv[] = {"echo", "Hello World", NULL};
-    execv("/bin/echo", argv);
-    exit(127);
-  } else {
-    waitpid(pid, 0, 0);
+  while (1) {
+    if (prompt == 1) {
+      printf("%s $ ", user);
+      scanf("%s", program);
+      prompt = 0;
+    }
+    if (pid == 0) {
+      static char *argv[] = {program, "", NULL};
+      execv("/bin/sh", argv);
+      exit(127);
+    } else {
+      waitpid(pid, 0, 0);
+    }
   }
+
   return 0;
 }
