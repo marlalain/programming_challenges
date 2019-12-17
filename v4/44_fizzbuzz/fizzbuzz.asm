@@ -1,7 +1,8 @@
 ; Fizzbuzz Algorithm made by Paulo Elienay II
-; Compile with: nasm -f elf helloworld.asm
-; Link with (64 bit systems require elf_i386 option): ld -m elf_i386 helloworld.o -o helloworld
-; Run with: ./helloworld
+; Compile with: nasm -f elf fizzbuzz.asm
+; Link with (64 bit systems require elf_i386 option): ld -m elf_i386 fizzbuzz.o -o fizzbuzz
+; Run with: ./fizzbuzz
+; TODO Properly exit to avoid seg. fault
 
 SECTION .data
 	msg db 'Fizzbuzz Algorithm! Made by Paulo Elienay II', 0Ah
