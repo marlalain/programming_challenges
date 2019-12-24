@@ -2,6 +2,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
+#include <wchar.h>
+
+int tb_print(int x, int y, char *str, uint16_t fg, uint16_t bg) {
+  uint32_t uni;
+  while (*str) {
+    str += tb_utf8_char_to_unicode(&uni, str);
+    tb_change_cell(x, y, uni, fg, bg);
+    x++;
+  }
+}
 
 int main() {
   tb_init();  // init termbox
@@ -12,9 +23,7 @@ int main() {
   h = tb_height();
   struct tb_event env;
 
-  tb_change_cell(0, 0, 'H', TB_WHITE, TB_DEFAULT); // Hello
-  tb_change_cell(0, 1, 'W', TB_WHITE, TB_DEFAULT); // World
-  tb_change_cell(0, 2, '!', TB_WHITE, TB_DEFAULT); // !
+  tb_print(0, 0, "Hello World!", TB_WHITE, TB_DEFAULT);
 
   tb_present();        // sync internal buffer with termina
   tb_poll_event(&env); // wait for input
