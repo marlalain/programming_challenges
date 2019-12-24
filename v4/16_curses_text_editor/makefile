@@ -5,7 +5,7 @@
 # @version 0.1
 
 CC=tcc
-CFLAGS=lncurses
+CFLAGS=ltermbox
 FILES=spacer.c
 EXE=spacer
 

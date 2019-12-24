@@ -1,54 +1,24 @@
-// Spacer (Spacemacs and SpaceVim based text editor)
-// Made in C and compiled with tcc by Paulo Elienay II
-// If you wish to use gcc, change the CC param in the
-// makefile.
-
-#include <ncurses.h>
+#include "termbox.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <sys/ioctl.h>
 
-int setup() {
-  initscr();
-  raw();
-  keypad(stdscr, TRUE);
-  noecho();
-}
+int main() {
+  tb_init();  // init termbox
+  tb_clear(); // clear the screen
 
-int kbd_handler() {
-  int ch, row, col, x, y;
-  char str[80];
+  int w, h, x, y; // height, width and cursors x and y
+  w = tb_width();
+  h = tb_height();
+  struct tb_event env;
 
-  getmaxyx(stdscr, row, col);
-  while (true) {
-    ch = getch();
-    if (ch == 'q') {
-      exit(0);
-    } else if (ch == KEY_LEFT) {
-      getyx(stdscr, y, x);
-      move(y, x - 1);
-    }else if (ch == KEY_RIGHT) {
-      getyx(stdscr, y, x);
-      move(y, x + 1);
-    }else if (ch == KEY_UP) {
-      getyx(stdscr, y, x);
-      move(y - 1, x);
-    }else if (ch == KEY_DOWN) {
-      getyx(stdscr, y, x);
-      move(y + 1, x);
-    }
-  }
-}
+  tb_change_cell(0, 0, 'H', TB_WHITE, TB_DEFAULT); // Hello
+  tb_change_cell(0, 1, 'W', TB_WHITE, TB_DEFAULT); // World
+  tb_change_cell(0, 2, '!', TB_WHITE, TB_DEFAULT); // !
 
-int main(int argc, char **argv) {
-  int ch, row, col;
-  setup();
+  tb_present();        // sync internal buffer with termina
+  tb_poll_event(&env); // wait for input
 
-  kbd_handler();
-
-  getch();
-  endwin();
-
-  return 0;
+  tb_shutdown(); // shutting termbox down
+  return 0;      // no errors
 }
