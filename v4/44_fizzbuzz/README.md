@@ -1,14 +1,14 @@
 # Fizzbuzz
 
 ## How to run
-This assembly code was made and tested only on a GNU/Linux environment (Arch Linux, x86_64 Linux 5.3.13-arch1-1), so if anything goes wrong you can [create a issue here](https://github.com/paulo-e/programming_challenges/issues).
+This assembly code was made and tested only on a GNU/Linux environment (Arch Linux, x86_64 Linux 5.3.13-arch1-1), so if anything goes wrong you can [create an issue here](https://github.com/paulo-e/programming_challenges/issues).
 
 First of all, install the requirements.
 #### Arch Linux
 ```bash
 sudo pacman -Sy nasm
 ```
-#### Debian based (Debian, Ubuntu etc)
+#### Debian based distros (Debian, Ubuntu etc)
 ```bash
 sudo apt-get update
 sudo apt-get install nasm

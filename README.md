@@ -21,7 +21,7 @@ As of 2019, the Euler Project has over 600 problems so go [here](https://github.
   (Made in Common Lisp)
 - [FizzBuzz
   (#44)](https://github.com/paulo-e/programming_challenges/tree/master/v4/44_fizzbuzz)
-  (Made in JavaScript/CLisp)
+  (Made in JavaScript/CLisp/Assembly)
 
 ### How do I test something?
 First check the [wiki](https://github.com/paulo-e/programming_challenges/wiki/How-to-test-a-challenge%3F).
