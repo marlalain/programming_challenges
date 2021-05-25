@@ -8,9 +8,10 @@
 - Haskell
 - Rust
 - C
+- POSIX Shell
 
 ### Euler Project
-As of 2019, the Euler Project has over 600 problems so go [here](https://github.com/paulo-e/programming_challenges/tree/master/euler) to check those.
+As of 2019, the Euler Project has over 725 problems so go [here](https://github.com/paulo-e/programming_challenges/tree/master/euler) to check those.
 
 ### Pro/g/ramming challenges completed (v4)
 - [Todo List Application (#10)](https://github.com/paulo-e/programming_challenges/tree/master/v4/10_to-do_list_application) (Made in Python3)
