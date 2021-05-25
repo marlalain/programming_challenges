@@ -27,8 +27,6 @@ Games: 104-132
 - 35	Create an HSV Color Representation
 - 42	Port Scanner
 - 43	Old School Demo Effect (Plasma, Tunner, Scrollers, Zoomers, etc...)
-- 44	Fizzbuzz
- 	(BONUS: In assembly)
 - 45	RPN Calculator
 - 46	Counts occurrences of characters in a Given String
  	(Include support for unicode character)
