@@ -1,0 +1,3 @@
+[submodule "project-euler"]
+	path = project-euler
+	url = https://github.com/paulo-e/project-euler-rust

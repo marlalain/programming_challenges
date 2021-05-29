@@ -28,8 +28,10 @@ As of 2019, the Euler Project has over 725 problems. Go [here](https://github.co
   (Made in JavaScript/CLisp/Assembly)
 
 ### How do I test something?
+
 First check the [wiki](https://github.com/paulo-e/programming_challenges/wiki/How-to-test-a-challenge%3F).
 Then you can check the README.md that's inside every challenge folder.
 
 ### Help the project
+
 This is a personal project, don't create a pull request. You are free to fork it anytime! :)
