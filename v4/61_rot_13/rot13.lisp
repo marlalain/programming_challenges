@@ -16,11 +16,5 @@
         do (cond
              ((< (char-code letter) 110) (format t "~a" (code-char (+ (char-code letter) 13))))
              ((> (char-code letter) 100) (format t "~a" (code-char (- (char-code letter) 13))))
-             ;;((< (char-code letter) 78) (format t "~a" (code-char (+ (char-code letter) 13))))
-             ;;((> (char-code letter) 77) (format t "~a" (code-char (- (char-code letter) 13))))
-             )
-    ;;     do (if (< (char-code letter) 110)
-    ;;            (format t "~a" (code-char (+ (char-code letter) 13)))
-    ;;            (format t "~a" (code-char (- (char-code letter) 13))))
   ))
 (get_message)
